@@ -2,9 +2,6 @@ import sys
 import numpy as np
 from matplotlib import pyplot
 
-from submission import SubmissionBase
-
-
 def displayData(X, example_width=None, figsize=(10, 10)):
     """
     Displays 2D data stored in X in a nice grid.
