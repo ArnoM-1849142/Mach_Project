@@ -1,0 +1,61 @@
+prediction accuracy for lambda = 0.01 and HLS = 250
+Training Set Accuracy: 8.076923
+Test Set Accuracy: 7.138462
+prediction accuracy for lambda = 0.1 and HLS = 250
+Training Set Accuracy: 10.538462
+Test Set Accuracy: 10.769231
+prediction accuracy for lambda = 1 and HLS = 250
+Training Set Accuracy: 11.261538
+Test Set Accuracy: 12.123077
+prediction accuracy for lambda = 10 and HLS = 250
+Training Set Accuracy: 7.369231
+Test Set Accuracy: 7.384615
+prediction accuracy for lambda = 0.01 and HLS = 1000
+Training Set Accuracy: 19.507692
+Test Set Accuracy: 15.630769
+prediction accuracy for lambda = 0.1 and HLS = 1000
+Training Set Accuracy: 13.815385
+Test Set Accuracy: 11.138462
+prediction accuracy for lambda = 1 and HLS = 1000
+Training Set Accuracy: 12.600000
+Test Set Accuracy: 10.892308
+prediction accuracy for lambda = 10 and HLS = 1000
+Training Set Accuracy: 14.307692
+Test Set Accuracy: 11.692308
+prediction accuracy for lambda = 0.01 and HLS = 2500
+Training Set Accuracy: 47.492308
+Test Set Accuracy: 38.523077
+prediction accuracy for lambda = 0.1 and HLS = 2500
+Training Set Accuracy: 42.523077
+Test Set Accuracy: 35.015385
+prediction accuracy for lambda = 1 and HLS = 2500
+Training Set Accuracy: 49.384615
+Test Set Accuracy: 42.153846
+prediction accuracy for lambda = 10 and HLS = 2500
+Training Set Accuracy: 34.323077
+Test Set Accuracy: 28.800000
+prediction accuracy for lambda = 0.01 and HLS = 5000
+Training Set Accuracy: 67.261538
+Test Set Accuracy: 61.353846
+prediction accuracy for lambda = 0.1 and HLS = 5000
+Training Set Accuracy: 59.969231
+Test Set Accuracy: 50.400000
+prediction accuracy for lambda = 1 and HLS = 5000
+Training Set Accuracy: 50.492308
+Test Set Accuracy: 44.061538
+prediction accuracy for lambda = 10 and HLS = 5000
+Training Set Accuracy: 61.892308
+Test Set Accuracy: 54.830769
+
+prediction accuracy for lambda = 0 and HLS = 250
+Training Set Accuracy: 9.030769
+Test Set Accuracy: 8.800000
+prediction accuracy for lambda = 0 and HLS = 1000
+Training Set Accuracy: 11.707692
+Test Set Accuracy: 10.461538
+prediction accuracy for lambda = 0 and HLS = 2500
+Training Set Accuracy: 50.723077
+Test Set Accuracy: 44.307692
+prediction accuracy for lambda = 0 and HLS = 5000
+Training Set Accuracy: 57.892308
+Test Set Accuracy: 47.446154
