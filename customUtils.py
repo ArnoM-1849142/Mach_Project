@@ -12,6 +12,9 @@ from scipy import optimize
 import csv
 # utilies library from the exercises of the machine learning course
 import utils
+# used for importing/exporting matlab data
+from scipy.io import savemat
+from scipy.io import loadmat
 
 def importImageDataFromCSV(csv_path, data_size=6500, width=50, height=50):
     
@@ -378,3 +381,32 @@ def thetasFromCSV_4L(filePath, theta1shape, theta2shape, theta3shape):
     
     return Theta1, Theta2, Theta3
 
+
+
+def importImageTrainDataFromMatlab(matlabfile_path, data_size=6500, width=50, height=50):
+
+    data = loadmat(matlabfile_path)
+    X, y = data['X_train'], data['y_train']
+
+    # Number of training examples
+    m = y.size
+    
+    return X, y 
+
+def importImageTestDataFromMatlab(matlabfile_path, data_size=1625, width=50, height=50):
+
+    data = loadmat(matlabfile_path)
+    X, y = data['X_test'], data['y_test']
+
+    # Number of training examples
+    m = y.size
+    
+    return X, y 
+
+   
+def savaThetaValues(num_layers,hidden_layer_size,lambda_,Theta1,Theta2)
+
+    filename = 'nnParameters_' + str(num_layers) +'L_' + str(hidden_layer_size) + '_lm' + str(lambda_) +'.mat'
+     
+    matcontent = {"Theta1": Theta1, "Theta2": Theta2}
+    savemat(filename, matcontent)
