@@ -117,9 +117,11 @@ def nnCostFunction(nn_params,
          
     # You need to return the following variables correctly 
     J = 0
+    
     Theta1_grad = np.zeros(Theta1.shape)
     Theta2_grad = np.zeros(Theta2.shape)
-
+    
+    
     # part 1: feedforward   
     # adding column of 1's to X (bias terms)
     a1 = np.concatenate([np.ones((m,1)),X], axis=1)
@@ -151,7 +153,8 @@ def nnCostFunction(nn_params,
     # Unroll gradients
     # grad = np.concatenate([Theta1_grad.ravel(order=order), Theta2_grad.ravel(order=order)])
     grad = np.concatenate([Theta1_grad.ravel(), Theta2_grad.ravel()])
-
+    
+    #grad = 0 # no backpropagation calculation (using optimize.minimize)
     return J, grad
 
 def randInitializeWeights(L_in, L_out, epsilon_init=0.12):
@@ -404,7 +407,7 @@ def importImageTestDataFromMatlab(matlabfile_path, data_size=1625, width=50, hei
     return X, y 
 
    
-def savaThetaValues(num_layers,hidden_layer_size,lambda_,Theta1,Theta2)
+def savaThetaValues(num_layers,hidden_layer_size,lambda_,Theta1,Theta2):
 
     filename = 'nnParameters_' + str(num_layers) +'L_' + str(hidden_layer_size) + '_lm' + str(lambda_) +'.mat'
      
