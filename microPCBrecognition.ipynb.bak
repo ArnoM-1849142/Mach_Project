@@ -75,7 +75,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 4,
+=======
+   "execution_count": 2,
+>>>>>>> 23550af56e5ce36ecf44bb709b0080e39ea2165c
    "id": "square-peace",
    "metadata": {},
    "outputs": [],
@@ -87,7 +91,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 5,
+=======
    "execution_count": 3,
+>>>>>>> 23550af56e5ce36ecf44bb709b0080e39ea2165c
    "id": "applicable-explanation",
    "metadata": {},
    "outputs": [],
